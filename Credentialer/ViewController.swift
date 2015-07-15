@@ -68,11 +68,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
-    func beginEditing(sender: AnyObject) {
-        activeTextField = sender as? UITextField
-        scrollView.scrollEnabled = true
-    }
-    
     func keyboardWillBeHidden(sender: NSNotification) {
         let contentInsets: UIEdgeInsets = UIEdgeInsetsZero
         scrollView.contentInset = contentInsets
@@ -100,6 +95,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
         zipCodeTextField.addTarget(self, action: Selector("textFieldDidEndEditing:"), forControlEvents: UIControlEvents.EditingDidEnd)
         countryTextField.addTarget(self, action: Selector("textFieldDidBeginEditing:"), forControlEvents: UIControlEvents.EditingDidBegin)
         countryTextField.addTarget(self, action: Selector("textFieldDidEndEditing:"), forControlEvents: UIControlEvents.EditingDidEnd)
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        switch (textField){
+        case self.usernameTextField: self.passwordTextField.becomeFirstResponder()
+        case self.passwordTextField: self.cityTextField.becomeFirstResponder()
+        case self.cityTextField: self.zipCodeTextField.becomeFirstResponder()
+        case self.zipCodeTextField: self.countryTextField.becomeFirstResponder()
+        default:
+            println("")
+        }
+        return true
     }
 }
 
