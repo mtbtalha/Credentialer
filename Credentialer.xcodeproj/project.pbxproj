@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940874081B564986007DD8D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940874071B564986007DD8D3 /* AppDelegate.swift */; };
+		9408740A1B564986007DD8D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940874091B564986007DD8D3 /* ViewController.swift */; };
+		9408740D1B564986007DD8D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9408740B1B564986007DD8D3 /* Main.storyboard */; };
+		9408740F1B564986007DD8D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9408740E1B564986007DD8D3 /* Images.xcassets */; };
+		940874121B564986007DD8D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940874101B564986007DD8D3 /* LaunchScreen.xib */; };
+		9408741E1B564986007DD8D3 /* CredentialerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9408741D1B564986007DD8D3 /* CredentialerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		940874181B564986007DD8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940873FA1B564986007DD8D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940874011B564986007DD8D3;
+			remoteInfo = Credentialer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		940874021B564986007DD8D3 /* Credentialer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Credentialer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		940874061B564986007DD8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940874071B564986007DD8D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		940874091B564986007DD8D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9408740C1B564986007DD8D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9408740E1B564986007DD8D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		940874111B564986007DD8D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		940874171B564986007DD8D3 /* CredentialerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CredentialerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9408741C1B564986007DD8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9408741D1B564986007DD8D3 /* CredentialerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		940873FF1B564986007DD8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940874141B564986007DD8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		940873F91B564986007DD8D3 = {
+			isa = PBXGroup;
+			children = (
+				940874041B564986007DD8D3 /* Credentialer */,
+				9408741A1B564986007DD8D3 /* CredentialerTests */,
+				940874031B564986007DD8D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		940874031B564986007DD8D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				940874021B564986007DD8D3 /* Credentialer.app */,
+				940874171B564986007DD8D3 /* CredentialerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940874041B564986007DD8D3 /* Credentialer */ = {
+			isa = PBXGroup;
+			children = (
+				940874071B564986007DD8D3 /* AppDelegate.swift */,
+				940874091B564986007DD8D3 /* ViewController.swift */,
+				9408740B1B564986007DD8D3 /* Main.storyboard */,
+				9408740E1B564986007DD8D3 /* Images.xcassets */,
+				940874101B564986007DD8D3 /* LaunchScreen.xib */,
+				940874051B564986007DD8D3 /* Supporting Files */,
+			);
+			path = Credentialer;
+			sourceTree = "<group>";
+		};
+		940874051B564986007DD8D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				940874061B564986007DD8D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9408741A1B564986007DD8D3 /* CredentialerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9408741D1B564986007DD8D3 /* CredentialerTests.swift */,
+				9408741B1B564986007DD8D3 /* Supporting Files */,
+			);
+			path = CredentialerTests;
+			sourceTree = "<group>";
+		};
+		9408741B1B564986007DD8D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9408741C1B564986007DD8D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		940874011B564986007DD8D3 /* Credentialer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940874211B564986007DD8D3 /* Build configuration list for PBXNativeTarget "Credentialer" */;
+			buildPhases = (
+				940873FE1B564986007DD8D3 /* Sources */,
+				940873FF1B564986007DD8D3 /* Frameworks */,
+				940874001B564986007DD8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Credentialer;
+			productName = Credentialer;
+			productReference = 940874021B564986007DD8D3 /* Credentialer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		940874161B564986007DD8D3 /* CredentialerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940874241B564986007DD8D3 /* Build configuration list for PBXNativeTarget "CredentialerTests" */;
+			buildPhases = (
+				940874131B564986007DD8D3 /* Sources */,
+				940874141B564986007DD8D3 /* Frameworks */,
+				940874151B564986007DD8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940874191B564986007DD8D3 /* PBXTargetDependency */,
+			);
+			name = CredentialerTests;
+			productName = CredentialerTests;
+			productReference = 940874171B564986007DD8D3 /* CredentialerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		940873FA1B564986007DD8D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Talha Babar";
+				TargetAttributes = {
+					940874011B564986007DD8D3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					940874161B564986007DD8D3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 940874011B564986007DD8D3;
+					};
+				};
+			};
+			buildConfigurationList = 940873FD1B564986007DD8D3 /* Build configuration list for PBXProject "Credentialer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 940873F91B564986007DD8D3;
+			productRefGroup = 940874031B564986007DD8D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				940874011B564986007DD8D3 /* Credentialer */,
+				940874161B564986007DD8D3 /* CredentialerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		940874001B564986007DD8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9408740D1B564986007DD8D3 /* Main.storyboard in Resources */,
+				940874121B564986007DD8D3 /* LaunchScreen.xib in Resources */,
+				9408740F1B564986007DD8D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940874151B564986007DD8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		940873FE1B564986007DD8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9408740A1B564986007DD8D3 /* ViewController.swift in Sources */,
+				940874081B564986007DD8D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940874131B564986007DD8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9408741E1B564986007DD8D3 /* CredentialerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		940874191B564986007DD8D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940874011B564986007DD8D3 /* Credentialer */;
+			targetProxy = 940874181B564986007DD8D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9408740B1B564986007DD8D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9408740C1B564986007DD8D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		940874101B564986007DD8D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				940874111B564986007DD8D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9408741F1B564986007DD8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		940874201B564986007DD8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		940874221B564986007DD8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Credentialer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		940874231B564986007DD8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Credentialer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		940874251B564986007DD8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CredentialerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credentialer.app/Credentialer";
+			};
+			name = Debug;
+		};
+		940874261B564986007DD8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CredentialerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credentialer.app/Credentialer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		940873FD1B564986007DD8D3 /* Build configuration list for PBXProject "Credentialer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9408741F1B564986007DD8D3 /* Debug */,
+				940874201B564986007DD8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940874211B564986007DD8D3 /* Build configuration list for PBXNativeTarget "Credentialer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940874221B564986007DD8D3 /* Debug */,
+				940874231B564986007DD8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		940874241B564986007DD8D3 /* Build configuration list for PBXNativeTarget "CredentialerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940874251B564986007DD8D3 /* Debug */,
+				940874261B564986007DD8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 940873FA1B564986007DD8D3 /* Project object */;
+}
